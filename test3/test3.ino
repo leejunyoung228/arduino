@@ -15,13 +15,4 @@ void loop() {
     }
     delay(250);
   }
-  for(int i=Pin_num-2;i>0;i--){
-    for(int j=Pin_num-2;j>0; j--){
-      if(i==j)
-        digitalWrite(Pin[j],HIGH);
-      else
-        digitalWrite(Pin[j],LOW);
-    }
-    delay(250);
-  }
 }
